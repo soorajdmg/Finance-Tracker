@@ -1,0 +1,78 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.dashboard-chart {
+  margin-bottom: 2rem;
+}
+
+.dashboard-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.dashboard-table-container {
+  overflow-x: auto;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.dashboard-table th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+}
+
+.dashboard-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.positive-amount {
+  color: #10b981;
+}
+
+.negative-amount {
+  color: #ef4444;
+}
+
+.dashboard-loading,
+.dashboard-error,
+.dashboard-no-data {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.dashboard-upload-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.dashboard-upload-link:hover {
+  background-color: #2563eb;
+}

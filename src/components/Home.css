@@ -1,0 +1,47 @@
+.home-container {
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.home-description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.home-button-upload {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.home-button-upload:hover {
+  background-color: #2563eb;
+}
+
+.home-button-dashboard {
+  background-color: #10b981;
+  color: white;
+}
+
+.home-button-dashboard:hover {
+  background-color: #059669;
+}
